@@ -1,2 +1,2 @@
 # express-mongo-ts
-### Basic product CRUD
+### Basic REST API CRUD Product with Express TypeScript and MongoDB Atlas
