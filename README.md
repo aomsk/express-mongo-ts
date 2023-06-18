@@ -1,10 +1,9 @@
 # express-mongo-ts
+Basic REST API CRUD Product with Express TypeScript and MongoDB Atlas
 
-### Basic REST API CRUD Product with Express TypeScript and MongoDB Atlas
+## **Script for use Express with Typescript (Setup Project)**
 
-# **Script for use Express with Typescript (Setup Project)**
-
-## **Folder Structure 📂**
+### **Folder Structure 📂**
 
 ```
 C:.
@@ -18,7 +17,7 @@ C:.
         index.ts
 ```
 
-## **Step 1 : create package.json and install typescript**
+### **Step 1 : create package.json and install typescript**
 
 ```
 npm init -y
@@ -48,7 +47,7 @@ npx tsc -init (create tsconfig.json file)
 "start": "nodemon"
 ```
 
-## **Step 2 : install dependencies & devDependencies**
+### **Step 2 : install dependencies & devDependencies**
 
 #### (ต้อง install @types ด้วย เพื่อให้ใช้งานกับ TypeScript ได้)
 
@@ -57,7 +56,7 @@ npm i express body-parser cookie-parser compression cors
 npm i -D @types/express @types/body-parser @types/cookie-parser @types/compression @types/cors
 ```
 
-# **Step to run**
+## **Step to run**
 
 ```
 1. cd express-mongo-ts
